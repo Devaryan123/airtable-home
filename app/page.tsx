@@ -9,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     if (user) {
-      router.replace("/dashboard");
+      router.replace("/fileuploaded");
     }
   });
   return (
